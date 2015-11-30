@@ -92,7 +92,7 @@ class ImageLoadingThread extends Thread {
 			if (outFile.exists()) {
 				if(fileLength!= outFile.length()){
 					outFile.delete();
-					System.out.println("file "+outFile.getName()+" is not completed,reload");
+					System.out.println(outFile.getName()+" is not completed "+ outFile.length()/fileLength+" ,reload");
 					outFile.createNewFile();
 				}else{
 					return;

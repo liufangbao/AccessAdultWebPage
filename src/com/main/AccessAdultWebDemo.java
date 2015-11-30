@@ -37,14 +37,14 @@ public class AccessAdultWebDemo {
 		
 		mDownloadingTaskList = new ArrayList<DownloadingTask>();
 
-//	    mDownloadingTaskList.add(new DownloadingTask(mBaseUrl,mBaseDir,"tupianqu","katong",1,1,null)); 
-//		mDownloadingTaskList.add(new DownloadingTask(mBaseUrl,mBaseDir,"tupianqu","yazhou", 1,1,null));
-//		mDownloadingTaskList.add(new DownloadingTask(mBaseUrl,mBaseDir,"tupianqu","oumei", 1,1,null));
-//	   mDownloadingTaskList.add(new DownloadingTask(mBaseUrl,mBaseDir,"tupianqu","zipai", 1,1,new String[]{"学生","少妇","老师"}));
-//		mDownloadingTaskList.add(new DownloadingTask(mBaseUrl,mBaseDir,"tupianqu","luanlun", 1,1,null));
+//	    mDownloadingTaskList.add(new DownloadingTask(mBaseUrl,mBaseDir,"tupianqu","katong",1,2,null)); 
+//		mDownloadingTaskList.add(new DownloadingTask(mBaseUrl,mBaseDir,"tupianqu","yazhou", 1,2,null));
+//		mDownloadingTaskList.add(new DownloadingTask(mBaseUrl,mBaseDir,"tupianqu","oumei", 1,2,null));
+//	   mDownloadingTaskList.add(new DownloadingTask(mBaseUrl,mBaseDir,"tupianqu","zipai", 1,10,new String[]{"","",""}));
+//		mDownloadingTaskList.add(new DownloadingTask(mBaseUrl,mBaseDir,"tupianqu","luanlun", 1,2,null));
 		mDownloadingTaskList.add(new DownloadingTask(mBaseUrl,mBaseDir,"tupianqu","taotu", 1,2,null));
-//		mDownloadingTaskList.add(new DownloadingTask(mBaseUrl,mBaseDir,"tupianqu","tongxing",1,1,null));
-		mDownloadingTaskList.add(new DownloadingTask(mBaseUrl,mBaseDir,"tupianqu","siwa", 1,2,null));
+//		mDownloadingTaskList.add(new DownloadingTask(mBaseUrl,mBaseDir,"tupianqu","tongxing",1,2,null));
+//		mDownloadingTaskList.add(new DownloadingTask(mBaseUrl,mBaseDir,"tupianqu","siwa", 1,2,null));
 
 	
 //		mDownloadingTaskList.add(new DownloadingTask(mBaseUrl,mBaseDir,"xiaoshuoqu","qinggan",1, 1,null));	

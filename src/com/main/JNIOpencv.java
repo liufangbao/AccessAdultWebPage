@@ -20,8 +20,8 @@ public class JNIOpencv extends JNIBase {
 	}
 
 	public JNIOpencv() {
-		//System.loadLibrary("opencv_highgui");
+		System.loadLibrary("opencv_highgui");
 	}
 	
-	public native int[] detectFace(int minFaceWidth, int minFaceHeight,String cascade, String filename);
+	public native int[] detectFace( String filename,String cascade_face,String cascade_eye,String cascade_nose,String cascade_mouth);
 }
