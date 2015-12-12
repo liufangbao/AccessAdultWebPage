@@ -46,7 +46,7 @@ public class HtmlParser {
         //Document htmlFile = Jsoup.parse("login.html", "ISO-8859-1"); // wrong 
         Document htmlFile = null; 
         try { 
-            htmlFile = Jsoup.parse(new File("/home/liufangbao/login.html"), "ISO-8859-1"); 
+            htmlFile = Jsoup.parse(new File("/home/galaxy/login.html"), "ISO-8859-1"); 
         } catch (IOException e) { 
             // TODO Auto-generated catch block 
             e.printStackTrace(); 

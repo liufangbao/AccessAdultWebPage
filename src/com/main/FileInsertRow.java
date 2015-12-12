@@ -26,7 +26,7 @@ public class FileInsertRow {
 	 * @throws Exception
 	 *             IO操作引发的异常
 	 */
-	public void insertStringInFile(File inFile, int lineno,
+	public static void insertStringInFile(File inFile, int lineno,
 			String lineToBeInserted) throws Exception {
 		// 临时文件
 		File outFile = File.createTempFile("name", ".tmp");
@@ -47,7 +47,7 @@ public class FileInsertRow {
 			}
 			
 			if (thisLine.contains(lineToBeInserted)|| thisLine.contains("org.bytedeco.javacv")) {
-				//System.out.println("found same line,skip "+ Integer.toString(i));
+				System.out.println("found same line,skip "+ Integer.toString(i));
 				i++;
 				continue;
 			}

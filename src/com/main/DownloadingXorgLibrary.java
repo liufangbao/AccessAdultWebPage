@@ -3,18 +3,21 @@ package com.main;
 import java.io.File;
 import java.io.IOException;
 
+import com.adult.HtmlRequest;
+import com.adult.ImageLoadingThread;
+
 public class DownloadingXorgLibrary {
 	private static String IMAGE_URL = "url";
 	private static String IMAGE_DIR = "dir";
 	private static String ITEM_HREF = "href";
 	private static String ITEM_TITLE = "title";
-	public static String mBaseDir = "/home/liufangbao/Opensource/";
+	public static String mBaseDir = "/home/galaxy/Opensource/";
 	public static String mCurrentUrl ="http://cgit.freedesktop.org";
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		Runtime runtime=Runtime.getRuntime();
 		Runtime runtime2=Runtime.getRuntime();
-		String []cmdarray1 = {"cd","/home/liufangbao/Opensource",null};
+		String []cmdarray1 = {"cd","/home/galaxy/Opensource",null};
 		String []cmdarray2 = {"git","clone",null};
 		String[] lines = ImageLoadingThread.ExtractUsefulContent(mCurrentUrl,null);
 		String target = "xdpyinfo";

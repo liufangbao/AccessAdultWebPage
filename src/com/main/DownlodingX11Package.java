@@ -10,6 +10,9 @@ import java.util.Map;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+import com.adult.HtmlRequest;
+import com.adult.ImageLoadingThread;
+
 public class DownlodingX11Package {
 	
 	private static String IMAGE_URL = "url";
@@ -18,7 +21,7 @@ public class DownlodingX11Package {
 	private static List<Map<String, String>> mHtmlPageUrlList;
 	// 创建一个可缓存的线程池。
 	private static ExecutorService mPool;
-	public static String mBaseDir = "/home/liufangbao/Opensource/";
+	public static String mBaseDir = "/home/galaxy/Opensource/";
 	public static String mCurrentUrl ="http://www.x.org/releases/X11R7.6/src/";
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub

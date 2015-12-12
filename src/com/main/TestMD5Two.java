@@ -94,25 +94,25 @@ public class TestMD5Two {
     public static void main(String[] args) throws IOException {
         long begin = System.currentTimeMillis();
  
-        File file = new File("/home/liufangbao/AH.jpg");
+        File file = new File("/home/galaxy/AH.jpg");
         String md5 = getFileMD5String(file);
         
         //文件名不同，内容相同；
-        File file2 = new File("/home/liufangbao/AH.jpg");
+        File file2 = new File("/home/galaxy/AH.jpg");
         String md52= getFileMD5String(file2);
         
         
         //文件名不同，内容不同；
-        File file3 = new File("/home/liufangbao/AH.jpg");
+        File file3 = new File("/home/galaxy/AH.jpg");
         String md53= getFileMD5String(file3);
         
       
         //测试压缩包
-        File fileZip = new File("/home/liufangbao/AH.jpg");
+        File fileZip = new File("/home/galaxy/AH.jpg");
         String md5Zip= getFileMD5String(fileZip);
         
         //测试压缩包
-        File fileZip2 = new File("/home/liufangbao/AH.jpg");
+        File fileZip2 = new File("/home/galaxy/AH.jpg");
         String md5Zip2= getFileMD5String(fileZip2);
            
         System.out.println("MD5:"+md5);
